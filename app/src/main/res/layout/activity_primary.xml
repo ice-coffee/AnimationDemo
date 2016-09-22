@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------ValueAnimation---------------------------"/>
+
+    <Button
+        android:onClick="valueAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------ObjectAnimation---------------------------"/>
+
+    <Button
+        android:onClick="alphaAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlphaAnimation"/>
+
+    <Button
+        android:onClick="rotationAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RotationAnimation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="translationXAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TranslationXAnimation"/>
+
+        <Button
+            android:onClick="translationYAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TranslationYAnimation"/>
+
+        <Button
+            android:onClick="translationZAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TranslationZAnimation"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="scaleXAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ScaleXAnimation"/>
+
+        <Button
+            android:onClick="scaleYAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ScaleYAnimation"/>
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="animationSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AnimationSet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------xml Animation---------------------------"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="xmlValueAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="XmlValueAnimation"/>
+
+        <Button
+            android:onClick="xmlObjectAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="XmlObjectAnimation"/>
+
+        <Button
+            android:onClick="xmlSetAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="XmlSetAnimation"/>
+
+    </LinearLayout>
+
+</LinearLayout>
