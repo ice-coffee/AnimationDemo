@@ -17,6 +17,8 @@
         <activity android:name=".paimary.PrimaryActivity"/>
 
         <activity android:name=".advanced.AdvancedActivity"/>
+
+        <activity android:name=".labeledittext.LabelEditTextActivity"/>
     </application>
 
 </manifest>

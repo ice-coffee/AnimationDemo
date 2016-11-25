@@ -17,7 +17,7 @@
         android:text="AdvancedUsage"/>
 
     <Button
-        android:onClick=""
+        android:onClick="labelEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

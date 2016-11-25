@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.animation.advanced.AdvancedActivity;
+import com.example.animation.labeledittext.LabelEditTextActivity;
 import com.example.animation.paimary.PrimaryActivity;
 
 /**
@@ -28,5 +29,10 @@ public class MainActivity extends Activity
     public void advancedUsage(View view)
     {
         startActivity(new Intent(this, AdvancedActivity.class));
+    }
+
+    public void labelEditText(View view)
+    {
+        startActivity(new Intent(this, LabelEditTextActivity.class));
     }
 }
