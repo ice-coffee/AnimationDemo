@@ -8,17 +8,24 @@
         android:onClick="primaryUsage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PrimaryUsage"/>
+        android:text="@string/bt_tx_1"/>
 
     <Button
         android:onClick="advancedUsage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AdvancedUsage"/>
+        android:text="@string/bt_tx_2"/>
 
     <Button
         android:onClick="labelEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/bt_tx_3"/>
+
+    <Button
+        android:onClick="alipayDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_tx_4"/>
 
 </LinearLayout>

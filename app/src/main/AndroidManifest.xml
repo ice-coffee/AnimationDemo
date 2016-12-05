@@ -19,6 +19,8 @@
         <activity android:name=".advanced.AdvancedActivity"/>
 
         <activity android:name=".labeledittext.LabelEditTextActivity"/>
+
+        <activity android:name=".alipaydial.RoundIndicatorActivity"/>
     </application>
 
 </manifest>

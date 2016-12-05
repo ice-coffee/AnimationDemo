@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PropertyAnimationDemo</string>
+    
+    <string name="bt_tx_1">属性动画用法</string>
+    <string name="bt_tx_2">属性动画高级用法</string>
+    <string name="bt_tx_3">添加标签的EditText</string>
+    <string name="bt_tx_4">仿支付宝信用积分表盘动画</string>
 </resources>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.animation.advanced.AdvancedActivity;
+import com.example.animation.alipaydial.RoundIndicatorActivity;
 import com.example.animation.labeledittext.LabelEditTextActivity;
 import com.example.animation.paimary.PrimaryActivity;
 
@@ -34,5 +35,10 @@ public class MainActivity extends Activity
     public void labelEditText(View view)
     {
         startActivity(new Intent(this, LabelEditTextActivity.class));
+    }
+
+    public void alipayDial(View view)
+    {
+        startActivity(new Intent(this, RoundIndicatorActivity.class));
     }
 }
